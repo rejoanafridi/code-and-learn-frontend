@@ -1,0 +1,35 @@
+{
+    "auth": {
+        "login": "লগইন",
+        "signup": "নিবন্ধন",
+        "email": "ইমেইল",
+        "password": "পাসওয়ার্ড",
+        "name": "পুরো নাম",
+        "needAccount": "অ্যাকাউন্ট প্রয়োজন? নিবন্ধন করুন",
+        "haveAccount": "অ্যাকাউন্ট আছে? লগইন করুন",
+        "welcomeBack": "ফিরে আসার জন্য স্বাগতম",
+        "createAccount": "অ্যাকাউন্ট তৈরি করুন",
+        "emailRequired": "ইমেইল প্রয়োজন",
+        "passwordRequired": "পাসওয়ার্ড প্রয়োজন",
+        "nameRequired": "নাম প্রয়োজন",
+        "invalidEmail": "অবৈধ ইমেইল ঠিকানা",
+        "passwordMinLength": "পাসওয়ার্ড কমপক্ষে ৬ অক্ষর হতে হবে",
+        "loginSuccess": "সফলভাবে লগইন হয়েছে!",
+        "signupSuccess": "অ্যাকাউন্ট সফলভাবে তৈরি হয়েছে!"
+    },
+    "tutorial": {
+        "select": "শেখা শুরু করতে একটি টিউটোরিয়াল নির্বাচন করুন",
+        "runCode": "কোড রান করুন",
+        "reset": "রিসেট",
+        "markComplete": "সম্পূর্ণ চিহ্নিত করুন",
+        "completed": "সম্পন্ন",
+        "markCompleteSuccess": "টিউটোরিয়াল সফলভাবে সম্পূর্ণ চিহ্নিত হয়েছে!",
+        "markCompleteError": "টিউটোরিয়াল সম্পূর্ণ চিহ্নিত করতে ব্যর্থ হয়েছে"
+    },
+    "common": {
+        "logout": "লগআউট",
+        "loading": "লোড হচ্ছে...",
+        "error": "ত্রুটি",
+        "success": "সফল"
+    }
+}

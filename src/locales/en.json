@@ -1,0 +1,35 @@
+{
+    "auth": {
+        "login": "Login",
+        "signup": "Sign Up",
+        "email": "Email",
+        "password": "Password",
+        "name": "Full Name",
+        "needAccount": "Need an account? Sign up",
+        "haveAccount": "Have an account? Login",
+        "welcomeBack": "Welcome Back",
+        "createAccount": "Create Account",
+        "emailRequired": "Email is required",
+        "passwordRequired": "Password is required",
+        "nameRequired": "Name is required",
+        "invalidEmail": "Invalid email address",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "loginSuccess": "Logged in successfully!",
+        "signupSuccess": "Account created successfully!"
+    },
+    "tutorial": {
+        "select": "Select a tutorial to start learning",
+        "runCode": "Run Code",
+        "reset": "Reset",
+        "markComplete": "Mark Complete",
+        "completed": "Completed",
+        "markCompleteSuccess": "Tutorial marked as complete!",
+        "markCompleteError": "Failed to mark tutorial as complete"
+    },
+    "common": {
+        "logout": "Logout",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success"
+    }
+}
