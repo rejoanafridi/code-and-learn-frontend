@@ -1,0 +1,35 @@
+{
+    "auth": {
+        "login": "تسجيل الدخول",
+        "signup": "إنشاء حساب",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "name": "الاسم الكامل",
+        "needAccount": "تحتاج حسابًا؟ أنشئ واحدًا",
+        "haveAccount": "هل لديك حساب؟ تسجيل الدخول",
+        "welcomeBack": "مرحبًا بعودتك",
+        "createAccount": "إنشاء حساب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "passwordRequired": "كلمة المرور مطلوبة",
+        "nameRequired": "الاسم مطلوب",
+        "invalidEmail": "عنوان البريد الإلكتروني غير صالح",
+        "passwordMinLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+        "loginSuccess": "تم تسجيل الدخول بنجاح!",
+        "signupSuccess": "تم إنشاء الحساب بنجاح!"
+    },
+    "tutorial": {
+        "select": "اختر درسًا للبدء بالتعلم",
+        "runCode": "تشغيل الكود",
+        "reset": "إعادة تعيين",
+        "markComplete": "تمييز كمكتمل",
+        "completed": "مكتمل",
+        "markCompleteSuccess": "تم تمييز الدرس كمكتمل بنجاح!",
+        "markCompleteError": "فشل في تمييز الدرس كمكتمل"
+    },
+    "common": {
+        "logout": "تسجيل الخروج",
+        "loading": "جارٍ التحميل...",
+        "error": "خطأ",
+        "success": "نجاح"
+    }
+}

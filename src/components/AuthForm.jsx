@@ -1,15 +1,14 @@
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { useAuth } from '../hooks/useAuth';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from './ui/card';
 import toast from 'react-hot-toast';
 import { useTranslation } from 'react-i18next';
+import { useAuthContext } from '../context/AuthContext';
+import { useForm } from 'react-hook-form';
+import ClerkAuthButton from './ClearkAuthButton';
 
 export function AuthForm() {
-    const [isLogin, setIsLogin] = useState(true);
-    const { login, register, loading } = useAuth();
+    const { login, register, isLogin, setIsLogin, loading } = useAuthContext()
     const { t } = useTranslation();
     const {
         register: formRegister,
@@ -34,7 +33,8 @@ export function AuthForm() {
 
     const toggleMode = () => {
         setIsLogin(!isLogin);
-        reset();
+        reset()
+
     };
 
     return (
@@ -114,6 +114,10 @@ export function AuthForm() {
                         {isLogin ? t('auth.needAccount') : t('auth.haveAccount')}
                     </Button>
                 </CardFooter>
+                <div className="m-6">
+
+                    <ClerkAuthButton />
+                </div>
             </Card>
         </div>
     );

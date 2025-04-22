@@ -9,7 +9,7 @@ import CodeEditor from '../components/CodeEditor';
 import { Card, CardContent, CardFooter } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 
-export function EditorSection({ tutorial }) {
+export function EditorSection({ tutorial, fetchTutorials }) {
     const [code, setCode] = useState('');
     const [output, setOutput] = useState('');
     const { token, user } = useAuth();
@@ -41,6 +41,7 @@ export function EditorSection({ tutorial }) {
         try {
             await markTutorialComplete(tutorial._id, token);
             toast.success('Tutorial marked as complete!');
+            fetchTutorials()
         } catch (error) {
             toast.error(error.message);
         }

@@ -4,7 +4,7 @@ function CodeEditor({ code, onChange }) {
     return (
         <MonacoEditor
             height="400px"
-            defaultLanguage="javascript"
+            defaultLanguage="go"
             theme="vs-dark"
             value={code}
             onChange={onChange}
