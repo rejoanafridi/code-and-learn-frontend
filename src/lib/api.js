@@ -1,6 +1,6 @@
 import { getCurrentLang } from './utils'
 
-const API_BASE_URL = 'http://localhost:5000/api'
+const API_BASE_URL = 'https://learn-and-code-backend-or1n.vercel.app/api/'
 
 const currentLang = `?language=${getCurrentLang()}`
 
